@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
   </head>
   <body>
     <div class="button-container">
@@ -17,19 +17,19 @@
         <button id="random-btn" onclick="changeImage('random.png')">Random</button>
       </div>
       <div class="action-buttons">
-        <button id="insta-btn">Ins</button>
+        <!-- <button id="insta-btn">Ins</button> -->
         <button id="save-btn" onclick="saveCanvasAsImage()">Save</button>
-        <button id="share-btn">Share</button>
+        <!-- <button id="share-btn">Share</button> -->
       </div>
     </div>
 
     <div class="photo">
       <img id="frame" src="frames/black.png">
-      <canvas id="overlay-canvas"></canvas>
+      <input type="file" id="image-input" accept="image/*" onchange="loadImage(this)">
+      <canvas id="overlay-canvas" style="visibility: hidden;"></canvas>
       <div class="img-btn">
         
       </div>
-      <input type="file" id="image-input" accept="image/*" onchange="loadFile(this)">
     </div>
     <div class="description"><a href="https://www.instagram.com/east__harmony/" target="_blank">BOWM 보움 @east__harmony</a><br>⚠️ 사진을 서버에 저장하지 않습니다 ⚠️
     </div>
