@@ -1,6 +1,14 @@
+let prev_num = 0;
 function changeImage(imagePath) {
   if (imagePath === 'random.jpg') {
-    var randomNumber = Math.floor(Math.random() * 5) + 1;
+    let randomNumber = Math.floor(Math.random() * 5) + 1;
+    while (1) {
+      if (randomNumber !== prev_num) {
+        prev_num = randomNumber;
+        break;
+      }
+      randomNumber = Math.floor(Math.random() * 5) + 1;
+    }
     imagePath = randomNumber.toString() + '.jpg';
   }
   var frame = document.getElementById('frame');
