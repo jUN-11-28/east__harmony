@@ -5,6 +5,51 @@ body {
     background: linear-gradient(90deg, rgba(224, 95, 59, 0.49) 0%, rgba(51, 78, 160, 0.53) 100%);
 }
 
+.unsupported-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+  
+@media (min-width: 1200px), (orientation: landscape) {
+    .unsupported-message {
+    display: flex;
+    }
+}
+  
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+  }
+  
+.rotating-logo {
+    width: 50%;
+    animation: rotation 2s infinite linear;
+    transform-origin: center;
+}
+  
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+  
+
 .button-container {
     display: flex;
     justify-content: space-between;
