@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta name="theme-color" content="gray" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
     <div class="white-bg">
@@ -28,11 +28,30 @@
     
         <div class="photo">
           <img id="frame" src="frames/black.png">
-          <input type="file" id="image-input" accept="image/*" onchange="loadImage(this)">
-          <canvas id="overlay-canvas" style="visibility: hidden;"></canvas>
-          <div class="img-btn">
+          <div id="images-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <label for="image-input-1" style="position: absolute; top: 6vw; left: 0; padding: 3vw 1.5vw 3vw 3vw;">
+              <div style="background-color: #a28080; width: 45.5vw; height: 60.7vw;"></div>
+            </label>
+            <input type="file" id="image-input-1" accept="image/*" onchange="loadImage(this)" style="display: none;">  
+
+            <label for="image-input-2" style="position: absolute; top: 13vw; left: 50vw; padding: 3vw 3vw 3vw 1.5vw;">
+              <div style="background-color: #6f5da8; width: 45.5vw; height: 60.7vw;"></div>
+            </label>
+            <input type="file" id="image-input-2" accept="image/*" onchange="loadImage(this)" style="display: none;">  
+            
+            <label for="image-input-3" style="position: absolute; top: 69.7vw; left: 0; padding: 3vw 1.5vw 3vw 3vw;">
+              <div style="background-color: #82a280; width: 45.5vw; height: 60.7vw;"></div>
+            </label>
+            <input type="file" id="image-input-3" accept="image/*" onchange="loadImage(this)" style="display: none;">  
+
+            <label for="image-input-4" style="position: absolute; top: 76.7vw; left: 50vw; padding: 3vw 3vw 3vw 1.5vw;">
+              <div style="background-color: #a85d76; width: 45.5vw; height: 60.7vw;"></div>
+            </label>
+            <input type="file" id="image-input-4" accept="image/*" onchange="loadImage(this)" style="display: none;">  
+          
             
           </div>
+          <canvas id="overlay-canvas" style="visibility: hidden;"></canvas>
         </div>
         <div class="description"><a href="https://www.instagram.com/east__harmony/" target="_blank">BOWM 보움 @east__harmony</a><br>⚠️ 사진을 서버에 저장하지 않습니다 ⚠️
         </div>
