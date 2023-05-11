@@ -7,32 +7,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="theme-color" content="gray" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
   </head>
   <body>
-    <div class="button-container">
-      <div class="frame-buttons">
-        <button id="black-btn" onclick="changeImage('black.png')">Black</button>
-        <button id="white-btn" onclick="changeImage('white.png')">White</button>
-        <button id="random-btn" onclick="changeImage('random.png')">Random</button>
+    <div class="white-bg">
+      <div class="main-screen">
+        <div class="button-container">
+          <div class="frame-buttons">
+            <button id="black-btn" onclick="changeImage('black.png')">Black</button>
+            <button id="white-btn" onclick="changeImage('white.png')">White</button>
+            <button id="random-btn" onclick="changeImage('random.png')">Random</button>
+          </div>
+          <div class="action-buttons">
+            <!-- <button id="insta-btn">Ins</button> -->
+            <button id="save-btn" onclick="saveCanvasAsImage()">Save</button>
+            <!-- <button id="share-btn">Share</button> -->
+          </div>
+        </div>
+    
+        <div class="photo">
+          <img id="frame" src="frames/black.png">
+          <input type="file" id="image-input" accept="image/*" onchange="loadImage(this)">
+          <canvas id="overlay-canvas" style="visibility: hidden;"></canvas>
+          <div class="img-btn">
+            
+          </div>
+        </div>
+        <div class="description"><a href="https://www.instagram.com/east__harmony/" target="_blank">BOWM 보움 @east__harmony</a><br>⚠️ 사진을 서버에 저장하지 않습니다 ⚠️
+        </div>
       </div>
-      <div class="action-buttons">
-        <!-- <button id="insta-btn">Ins</button> -->
-        <button id="save-btn" onclick="saveCanvasAsImage()">Save</button>
-        <!-- <button id="share-btn">Share</button> -->
-      </div>
+      
     </div>
-
-    <div class="photo">
-      <img id="frame" src="frames/black.png">
-      <input type="file" id="image-input" accept="image/*" onchange="loadImage(this)">
-      <canvas id="overlay-canvas" style="visibility: hidden;"></canvas>
-      <div class="img-btn">
-        
-      </div>
-    </div>
-    <div class="description"><a href="https://www.instagram.com/east__harmony/" target="_blank">BOWM 보움 @east__harmony</a><br>⚠️ 사진을 서버에 저장하지 않습니다 ⚠️
-    </div>
+    
   
     <script src="script.js"></script>
   </body>
