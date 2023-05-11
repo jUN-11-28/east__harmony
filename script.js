@@ -1,39 +1,94 @@
 function changeImage(imagePath) {
-    if (imagePath === 'random.png') {
-        var randomNumber = Math.floor(Math.random() * 1) + 1;
-        imagePath = randomNumber.toString() + '.png';
-    }
-    var frame = document.getElementById('frame');
-    frame.src = 'frames/' + imagePath;
+  if (imagePath === 'random.png') {
+    var randomNumber = Math.floor(Math.random() * 1) + 1;
+    imagePath = randomNumber.toString() + '.png';
+  }
+  var frame = document.getElementById('frame');
+  frame.src = 'frames/' + imagePath;
 }
 
 function saveCanvasAsImage() {
-    const originalCanvas = document.getElementById('overlay-canvas');
-    originalCanvas.hidden = false;
-    const imageElement = document.getElementById('frame');
-    const newCanvas = document.createElement('canvas');
-    const context = newCanvas.getContext('2d');
+  const originalCanvas = document.getElementById('overlay-canvas');
+  originalCanvas.hidden = false;
+  const imageElement = document.getElementById('frame');
+  const newCanvas = document.createElement('canvas');
+  const context = newCanvas.getContext('2d');
 
-    newCanvas.width = 1200;
-    newCanvas.height = 1800;
+  newCanvas.width = 1200;
+  newCanvas.height = 1800;
 
-    // 새로운 캔버스에 이미지를 그립니다.
-    context.drawImage(imageElement, 0, 0, newCanvas.width, newCanvas.height);
+  // 새로운 캔버스에 이미지를 그립니다.
+  context.drawImage(imageElement, 0, 0, newCanvas.width, newCanvas.height);
 
-    // 새로운 캔버스 위에 원래 캔버스의 내용을 그립니다.
-    context.drawImage(originalCanvas, 0, 0, newCanvas.width, newCanvas.height);
+  // 새로운 캔버스 위에 원래 캔버스의 내용을 그립니다.
+  // context.drawImage(originalCanvas, 0, 0, newCanvas.width, newCanvas.height);
 
-    const image = newCanvas.toDataURL('image/png');
-    const link = document.createElement('a');
+  const labels = document.querySelectorAll('label');
+  var cnt = 0;
+  labels.forEach((label) => {
+    let dx = 0;
+    let dy = 0;
+    let dWidth = 0;
+    let dHeight = 0;
+    const img = label.querySelector('img');
+    if (img) {
+      const rect = label.getBoundingClientRect();
+      const imgAspectRatio = img.naturalWidth / img.naturalHeight;
+      const labelAspectRatio = rect.width / rect.height;
 
-    link.href = image;
-    link.download = 'bowm-4Cuts.png';
+      let sourceWidth = img.naturalWidth;
+      let sourceHeight = img.naturalHeight;
+      let sourceX = 0;
+      let sourceY = 0;
 
-    const clickEvent = new MouseEvent('click', {
-        bubbles: true,
-        cancelable: false,
-        view: window,
-    });
+      if (imgAspectRatio > labelAspectRatio) {
+        sourceWidth = img.naturalHeight * labelAspectRatio;
+        sourceX = (img.naturalWidth - sourceWidth) / 2;
+      } else {
+        sourceHeight = img.naturalWidth / labelAspectRatio;
+        sourceY = (img.naturalHeight - sourceHeight) / 2;
+      }
+      if (cnt === 0) {
+        dx = 36;
+        dy = 108;
+        dWidth = 546;
+        dHeight = 728.4;
+      } else if (cnt === 1) {
+        dx = 36 + 546 + 36;
+        dy = 192;
+        dWidth = 546;
+        dHeight = 728.4;
+      } else if (cnt === 2) {
+        dx = 36;
+        dy = 108 + 728.4 + 36;
+        dWidth = 546;
+        dHeight = 728.4;
+      } else if (cnt === 3) {
+        dx = 36 + 546 + 36;
+        dy = 192 + 728.4 + 36;
+        dWidth = 546;
+        dHeight = 728.4;
+      }
+      context.drawImage(img, sourceX, sourceY, sourceWidth, sourceHeight, dx, dy, dWidth, dHeight);
+    }
+    cnt += 1;
+  });
 
-    link.dispatchEvent(clickEvent);
+  const link = document.createElement('a');
+  link.href = newCanvas.toDataURL('image/png');
+  link.download = 'bowm-4-cuts.png';
+  link.click();
 }
+  
+function loadImage(input) {
+    if (input.files && input.files[0]) {
+      const reader = new FileReader();
+      
+      reader.onload = function (e) {
+        const label = input.previousElementSibling;
+        label.innerHTML = `<img src="${e.target.result}" style="width: 45.5vw; height: 60.7vw; object-fit: cover;">`;
+      };
+  
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
