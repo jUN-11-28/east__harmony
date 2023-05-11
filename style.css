@@ -233,3 +233,8 @@ a {
     letter-spacing: 0px;
     line-height: 1.2;
 }
+
+* {
+    touch-action: none;
+  }
+  
