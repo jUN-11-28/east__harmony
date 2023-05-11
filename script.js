@@ -1,6 +1,6 @@
 function changeImage(imagePath) {
   if (imagePath === 'random.png') {
-    var randomNumber = Math.floor(Math.random() * 3) + 1;
+    var randomNumber = Math.floor(Math.random() * 5) + 1;
     imagePath = randomNumber.toString() + '.png';
   }
   var frame = document.getElementById('frame');
