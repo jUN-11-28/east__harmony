@@ -92,6 +92,10 @@ function saveCanvasAsImage() {
     }
   }
 }
+
+function closeModal() {
+  modal.style.display = "none";
+}
   
 function loadImage(input) {
     if (input.files && input.files[0]) {
