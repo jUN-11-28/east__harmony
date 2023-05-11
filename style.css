@@ -234,3 +234,19 @@ a {
     line-height: 1.2;
 }
   
+/* Chrome, Safari, Opera */
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+}
+  
+/* Thumb */
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+  
+/* Track */
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
