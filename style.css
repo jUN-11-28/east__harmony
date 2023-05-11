@@ -208,7 +208,7 @@ a {
 
 .modal .description {
     position: fixed;
-    top: calc(20% + 100% / 2); /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
+    top: calc(10vh + 108vw); /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
     left: 50%;
     transform: translateX(-50%);
     font-family: "Inter", sans-serif;
@@ -221,7 +221,7 @@ a {
 
 #close-btn {
     position: fixed;
-    top: calc(20% + 105% / 2); /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
+    top: calc(10vh + 112vw); /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
     left: 50%;
     transform: translateX(-50%);
     font-family: "Inter", sans-serif;
