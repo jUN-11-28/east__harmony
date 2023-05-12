@@ -117,3 +117,21 @@ function loadImage(input) {
       reader.readAsDataURL(input.files[0]);
     }
 }
+
+// 두 손가락 터치 무시
+// https://kjwan4435.tistory.com/65
+document.documentElement.addEventListener('touchstart', function (event) {
+  if (event.touches.length > 1) {
+       event.preventDefault(); 
+     } 
+ }, false);
+
+var lastTouchEnd = 0; 
+
+// 연속탭 0.3초 간격 무시
+document.documentElement.addEventListener('touchend', function (event) {
+  var now = (new Date()).getTime();
+  if (now - lastTouchEnd <= 300) {
+       event.preventDefault(); 
+     } lastTouchEnd = now; 
+ }, false);
