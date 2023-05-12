@@ -131,7 +131,7 @@ var lastTouchEnd = 0;
 // 연속탭 0.3초 간격 무시
 document.documentElement.addEventListener('touchend', function (event) {
   var now = (new Date()).getTime();
-  if (now - lastTouchEnd <= 300) {
+  if (now - lastTouchEnd <= 500) {
        event.preventDefault(); 
      } lastTouchEnd = now; 
  }, false);
