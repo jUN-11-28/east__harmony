@@ -117,6 +117,7 @@ header {
     width: 100%;
     z-index: 9999;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
 }
 
