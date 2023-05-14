@@ -3,7 +3,25 @@
 window.onload = function() {
   let headerHeight = document.getElementById('fixed-header').offsetHeight;
   document.getElementById('menu-container').style.marginTop = headerHeight + 'px';
-  
+  fetch('menu.json') // 여기에 실제 JSON 파일의 경로를 입력해주세요.
+  .then(response => response.json()) // 응답을 JSON으로 파싱합니다.
+  .then(data => { // 파싱된 JSON 데이터를 받습니다.
+    const menuSelectionDiv = document.getElementById('menu-items'); // 버튼을 추가할 div를 가져옵니다.
+
+    data.forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
+      let newButton = document.createElement('button');
+      newButton.className = 'menu-btn';
+      newButton.id = item.id; // 아이템 ID를 ID로 사용합니다.
+      newButton.textContent = item.name;
+      newButton.onclick = function() {
+        addMenu(event); // 메뉴 추가 함수에 아이템 이름을 인자로 넘깁니다.
+      };
+
+      menuSelectionDiv.appendChild(newButton); // 버튼을 div에 추가합니다.
+    });
+  })
+  .catch(error => console.error('Error:', error)); // 에러 발생 시 로그를 출력합니다.
+
 }
 
 // item 추가시 fixed-header 사이즈 계산후 마진 추가

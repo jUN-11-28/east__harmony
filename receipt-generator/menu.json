@@ -222,6 +222,118 @@
         "category": "coffee",
         "description": "",
         "imageURL": ""
+    },
+    {
+        "id": 29,
+        "name": "몽블랑",
+        "price": 6500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
+        "imageURL": ""
+    },
+    {
+        "id": 30,
+        "name": "데니쉬 앙버터",
+        "price": 6500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+        "imageURL": ""
+    },
+    {
+        "id": 31,
+        "name": "팡도르",
+        "price": 6500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란",
+        "imageURL": ""
+    },
+    {
+        "id": 32,
+        "name": "인절미 팡도르",
+        "price": 7000,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.찹쌀떡",
+        "imageURL": ""
+    },
+    {
+        "id": 33,
+        "name": "크루아상",
+        "price": 5000,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+        "imageURL": ""
+    },
+    {
+        "id": 34,
+        "name": "크림 크루아상",
+        "price": 5500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유",
+        "imageURL": ""
+    },
+    {
+        "id": 35,
+        "name": "아몬드 크루아상",
+        "price": 6000,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 아몬드(미국)",
+        "imageURL": ""
+    },
+    {
+        "id": 36,
+        "name": "빵오 쇼콜라",
+        "price": 5500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿",
+        "imageURL": ""
+    },
+    {
+        "id": 37,
+        "name": "빵오 쇼콜라 초코코팅",
+        "price": 6500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
+        "imageURL": ""
+    },
+    {
+        "id": 38,
+        "name": "롱 소세지 데니쉬",
+        "price": 7500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 롱 소세지 마늘파우더",
+        "imageURL": ""
+    },
+    {
+        "id": 39,
+        "name": "마늘빵",
+        "price": 5000,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+        "imageURL": ""
+    },
+    {
+        "id": 40,
+        "name": "데니쉬 마늘빵",
+        "price": 5500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+        "imageURL": ""
+    },
+    {
+        "id": 41,
+        "name": "메론빵",
+        "price": 4500,
+        "category": "bakery",
+        "description": "• 프랑스 레스큐어 버터 • 미국산 아몬드 파우더",
+        "imageURL": ""
+    },
+    {
+        "id": 42,
+        "name": "옥수수 단과자빵",
+        "price": 3500,
+        "category": "bakery",
+        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.옥수수",
+        "imageURL": ""
     }
 ]
   
