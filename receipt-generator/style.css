@@ -95,7 +95,7 @@ button:active {
 }
 
 .menu-btn {
-    margin: 1vw;
+    margin: 3px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
