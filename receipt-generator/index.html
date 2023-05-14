@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BOWM 보움 영수증 생성기</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="BOWM 보움 영수증 생성기">
+    <meta property="og:description" content="보움 영수증 생성하기">
+    <meta property="og:image" content="appLogo.png">
+  </head>
+  <body>
+    <div id="fixed-header">
+        <h1>Receipt Gen.</h1>
+        <div id="selected-items">
+            <span style="margin-left: 3px;">선택된 메뉴: </span>
+        </div>
+    </div>
+    <div id="menu-container">
+        메뉴
+        <div id="menu-items">
+            <button id="peachsunset" class="menu-btn" onclick="addMenu(event)">피치선셋 에이드</button>
+            <button id="latte" class="menu-btn" onclick="addMenu(event)">라떼</button>
+            <button id="bownLatte" class="menu-btn" onclick="addMenu(event)">보움 라떼</button>
+            <button id="fiveGrainLatte" class="menu-btn" onclick="addMenu(event)">오곡 라떼</button>
+            <button id="montblanc" class="menu-btn" onclick="addMenu(event)">몽블랑</button>
+            <button id="injeolmePandoro" class="menu-btn" onclick="addMenu(event)">인절미 팡도르</button>
+        </div>
+       
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
