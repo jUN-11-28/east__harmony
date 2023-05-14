@@ -112,7 +112,7 @@ function deleteMenu(event) {
       // 부모 노드에서 이벤트를 발생시킨 요소를 삭제
       button.parentNode.removeChild(button);
       resize();
-    }, 200);
+    }, 300);
   }
 }
 
