@@ -5,15 +5,17 @@
         "price": 8000,
         "category": "beverage",
         "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 2,
         "name": "보움초코라떼",
         "price": 8000,
         "category": "beverage",
-        "description": "(발로나 초콜릿) 프랑스 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
-        "imageURL": ""
+        "description": "(발로나 초콜릿) 벨기에 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "price": 8000,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "price": 7000,
         "category": "beverage",
         "description": "설탕이 들어가지 않아 당도가 필요하시면 주문시 미리 말씀해주세요.",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 7,
@@ -53,23 +59,8 @@
         "price": 6500,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
-    },
-    {
-        "id": 8,
-        "name": "자몽에이드",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": ""
-    },
-    {
-        "id": 9,
-        "name": "오미자에이드",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 10,
@@ -77,7 +68,26 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
+    },
+    {
+        "id": 8,
+        "name": "자몽에이드",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "",
+        "status": true
+    },
+    {
+        "id": 9,
+        "name": "오미자에이드",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 12,
@@ -93,15 +104,44 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 13,
         "name": "그레인 스무디",
         "price": 8000,
         "category": "beverage",
+        "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
+        "imageURL": "",
+        "status": true
+    },
+    {
+        "id": 43,
+        "name": "플레인 요거트 스무디",
+        "price": 7500,
+        "category": "beverage",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
+    },
+    {
+        "id": 44,
+        "name": "딸기 요거트 스무디",
+        "price": 8000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "",
+        "status": true
+    },
+    {
+        "id": 45,
+        "name": "블루베리 요거트 스무디",
+        "price": 8000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 14,
@@ -109,7 +149,8 @@
         "price": 6500,
         "category": "tea",
         "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 15,
@@ -117,7 +158,8 @@
         "price": 6500,
         "category": "tea",
         "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 16,
@@ -125,7 +167,8 @@
         "price": 6500,
         "category": "tea",
         "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 17,
@@ -133,7 +176,8 @@
         "price": 5500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 18,
@@ -141,7 +185,8 @@
         "price": 5500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 19,
@@ -149,7 +194,8 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 20,
@@ -157,7 +203,8 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": false
     },
     {
         "id": 21,
@@ -165,7 +212,8 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 22,
@@ -173,15 +221,17 @@
         "price": 7000,
         "category": "coffee",
         "description": "바닐라빈으로 만든 수제시럽",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 23,
         "name": "보움라떼",
         "price": 7000,
         "category": "coffee",
-        "description": "(ICED only) 미니사이즈 라떼이 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
-        "imageURL": ""
+        "description": "(ICED only) 미니사이즈 라떼에 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 24,
@@ -189,7 +239,8 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 25,
@@ -197,7 +248,8 @@
         "price": 6500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 26,
@@ -205,7 +257,8 @@
         "price": 7000,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 27,
@@ -213,7 +266,8 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 28,
@@ -221,7 +275,8 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 29,
@@ -229,7 +284,8 @@
         "price": 6500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 30,
@@ -237,7 +293,8 @@
         "price": 6500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 31,
@@ -245,7 +302,8 @@
         "price": 6500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 32,
@@ -253,7 +311,8 @@
         "price": 7000,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.찹쌀떡",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 33,
@@ -261,7 +320,8 @@
         "price": 5000,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 34,
@@ -269,7 +329,8 @@
         "price": 5500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 35,
@@ -277,7 +338,8 @@
         "price": 6000,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 아몬드(미국)",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 36,
@@ -285,7 +347,8 @@
         "price": 5500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 37,
@@ -293,7 +356,8 @@
         "price": 6500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 38,
@@ -301,7 +365,8 @@
         "price": 7500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 롱 소세지 마늘파우더",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 39,
@@ -309,7 +374,8 @@
         "price": 5000,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 40,
@@ -317,7 +383,8 @@
         "price": 5500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 41,
@@ -325,7 +392,8 @@
         "price": 4500,
         "category": "bakery",
         "description": "• 프랑스 레스큐어 버터 • 미국산 아몬드 파우더",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     },
     {
         "id": 42,
@@ -333,7 +401,8 @@
         "price": 3500,
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.옥수수",
-        "imageURL": ""
+        "imageURL": "",
+        "status": true
     }
 ]
   
