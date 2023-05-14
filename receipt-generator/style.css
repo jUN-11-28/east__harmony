@@ -13,6 +13,11 @@ h1 {
     font-family: "DM Serif Display", "DM Serif Display Placeholder", serif;
 }
 
+button:active {
+    background-color: inherit; /* 버튼의 배경색을 그대로 유지 */
+    opacity: 1; /* 투명도를 100%로 설정 */
+}
+
 #fixed-header {
     position: fixed;
     top: 0;
