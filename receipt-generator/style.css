@@ -15,6 +15,7 @@ h1 {
 
 button:active {
     background-color: inherit; /* 버튼의 배경색을 그대로 유지 */
+    color:#000000;
     opacity: 1; /* 투명도를 100%로 설정 */
 }
 
@@ -25,6 +26,26 @@ button:active {
     width: 100%;
     background-color: #ffffff;
     z-index: 1;
+}
+
+.print-btn {
+    margin-top: -12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1); */
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 22px;
+    border-color: black;
+    border-width: 1px;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    /* position: absolute; */
 }
 
 #selected-items {

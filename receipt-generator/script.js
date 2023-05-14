@@ -3,6 +3,7 @@
 window.onload = function() {
   let headerHeight = document.getElementById('fixed-header').offsetHeight;
   document.getElementById('menu-container').style.marginTop = headerHeight + 'px';
+  
 }
 
 // item 추가시 fixed-header 사이즈 계산후 마진 추가
@@ -44,7 +45,7 @@ function addMenu(event) {
 
 function deleteMenu(event) {
   // 사용자에게 정말로 삭제할 것인지 확인
-  if (confirm('정말로 삭제하시겠습니까?')) {
+  if (confirm('메뉴를 취소하시겠습니까?')) {
     // 이벤트를 발생시킨 요소의 부모 노드에 접근
     let button = event.target;
 

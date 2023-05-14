@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "name": "피치선셋",
+        "price": 8000,
+        "category": "beverage",
+        "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
+        "imageURL": ""
+    },
+    {
+        "id": 2,
+        "name": "보움초코라떼",
+        "price": 8000,
+        "category": "beverage",
+        "description": "(발로나 초콜릿) 프랑스 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
+        "imageURL": ""
+    },
+    {
+        "id": 3,
+        "name": "보움말차라떼",
+        "price": 8000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 4,
+        "name": "자색고구마라떼",
+        "price": 7000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 5,
+        "name": "딸기크림라떼",
+        "price": 7000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 6,
+        "name": "얼그레이 밀크티",
+        "price": 7000,
+        "category": "beverage",
+        "description": "설탕이 들어가지 않아 당도가 필요하시면 주문시 미리 말씀해주세요.",
+        "imageURL": ""
+    },
+    {
+        "id": 7,
+        "name": "복숭아 아이스티",
+        "price": 6500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 8,
+        "name": "자몽에이드",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 9,
+        "name": "오미자에이드",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 10,
+        "name": "생 레몬에이드",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 11,
+        "name": "자몽차",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 12,
+        "name": "오미자차",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 13,
+        "name": "그레인 스무디",
+        "price": 8000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 14,
+        "name": "아쿠아로사",
+        "price": 6500,
+        "category": "tea",
+        "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
+        "imageURL": ""
+    },
+    {
+        "id": 15,
+        "name": "엑스퓨레 에딕트",
+        "price": 6500,
+        "category": "tea",
+        "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
+        "imageURL": ""
+    },
+    {
+        "id": 16,
+        "name": "부케 플라워스",
+        "price": 6500,
+        "category": "tea",
+        "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
+        "imageURL": ""
+    },
+    {
+        "id": 17,
+        "name": "에스프레소",
+        "price": 5500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 18,
+        "name": "아메리카노",
+        "price": 5500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 19,
+        "name": "라떼",
+        "price": 6000,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 20,
+        "name": "카푸치노",
+        "price": 6000,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 21,
+        "name": "플랫화이트",
+        "price": 6000,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 22,
+        "name": "바닐라빈 라떼",
+        "price": 7000,
+        "category": "coffee",
+        "description": "바닐라빈으로 만든 수제시럽",
+        "imageURL": ""
+    },
+    {
+        "id": 23,
+        "name": "보움라떼",
+        "price": 7000,
+        "category": "coffee",
+        "description": "(ICED only) 미니사이즈 라떼이 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
+        "imageURL": ""
+    },
+    {
+        "id": 24,
+        "name": "말차카페라떼",
+        "price": 7500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 25,
+        "name": "콜드브루",
+        "price": 6500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 26,
+        "name": "콜드브루라떼",
+        "price": 7000,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 27,
+        "name": "바닐라 콜드브루라떼",
+        "price": 7500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    },
+    {
+        "id": 28,
+        "name": "돌체콜드브루라떼",
+        "price": 7500,
+        "category": "coffee",
+        "description": "",
+        "imageURL": ""
+    }
+]
+  
