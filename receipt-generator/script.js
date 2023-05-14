@@ -131,14 +131,9 @@ function printReceipt() {
   const modal = document.getElementById("modal");
   const modalImage = document.getElementById("modal-image");
   modalImage.src = newCanvas.toDataURL("image/png");
-  modal.style.display = "block";
-
-  // 모달창 이외의 영역을 클릭하면 모달창이 닫히도록 설정합니다.
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
+  setTimeout(() => {
+    modal.style.display = "block";
+  }, 100);
 }
 
 function calcPrice() {
