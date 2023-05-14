@@ -95,12 +95,14 @@ button:active {
 }
 
 .menu-btn {
-    margin: 3px;
+    margin: 1vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 200px;
+    width: 45vw;
+    height: 45vw;
+    max-width: 200px;
+    max-height: 200px;
     /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1); */
     color: #000000;
     background-color: #ffffff;
