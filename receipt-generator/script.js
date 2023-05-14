@@ -8,16 +8,54 @@ window.onload = function() {
   fetch('https://east-harmony.com/receipt-generator/menu.json') // 여기에 실제 JSON 파일의 경로를 입력해주세요.
   .then(response => response.json()) // 응답을 JSON으로 파싱합니다.
   .then(data => { // 파싱된 JSON 데이터를 받습니다.
-    const menuSelectionDiv = document.getElementById('menu-items'); // 버튼을 추가할 div를 가져옵니다.
-    menuJson = data;
-    data.forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
+    menuJson = data.filter(menu => menu.status === true);
+
+    // coffee
+    const coffeeContainer = document.getElementById('coffee-container'); // 버튼을 추가할 div를 가져옵니다.
+    menuJson.filter(menu => menu.category === 'coffee').forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
       let newButton = document.createElement('button');
       newButton.className = 'menu-btn';
       newButton.id = item.id; // 아이템 ID를 ID로 사용합니다.
       newButton.textContent = item.name;
       newButton.onclick = addMenu;
 
-      menuSelectionDiv.appendChild(newButton); // 버튼을 div에 추가합니다.
+      coffeeContainer.appendChild(newButton); // 버튼을 div에 추가합니다.
+    });
+
+    // baverage
+    const beverageContainer = document.getElementById('beverage-container'); // 버튼을 추가할 div를 가져옵니다.
+    menuJson.filter(menu => menu.category === 'beverage').forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
+      let newButton = document.createElement('button');
+      newButton.className = 'menu-btn';
+      newButton.id = item.id; // 아이템 ID를 ID로 사용합니다.
+      newButton.textContent = item.name;
+      newButton.onclick = addMenu;
+
+      beverageContainer.appendChild(newButton); // 버튼을 div에 추가합니다.
+    });
+
+    // tea
+    const teaContainer = document.getElementById('tea-container'); // 버튼을 추가할 div를 가져옵니다.
+    menuJson.filter(menu => menu.category === 'tea').forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
+      let newButton = document.createElement('button');
+      newButton.className = 'menu-btn';
+      newButton.id = item.id; // 아이템 ID를 ID로 사용합니다.
+      newButton.textContent = item.name;
+      newButton.onclick = addMenu;
+
+      teaContainer.appendChild(newButton); // 버튼을 div에 추가합니다.
+    });
+
+    // baverage
+    const bakeryContainer = document.getElementById('bakery-container'); // 버튼을 추가할 div를 가져옵니다.
+    menuJson.filter(menu => menu.category === 'bakery').forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
+      let newButton = document.createElement('button');
+      newButton.className = 'menu-btn';
+      newButton.id = item.id; // 아이템 ID를 ID로 사용합니다.
+      newButton.textContent = item.name;
+      newButton.onclick = addMenu;
+
+      bakeryContainer.appendChild(newButton); // 버튼을 div에 추가합니다.
     });
   })
   .catch(error => console.error('Error:', error)); // 에러 발생 시 로그를 출력합니다.
@@ -62,7 +100,7 @@ function addMenu(event) {
 
 function deleteMenu(event) {
   // 사용자에게 정말로 삭제할 것인지 확인
-  if (confirm('메뉴를 취소하시겠습니까?')) {
+  if (confirm('메뉴를 삭제하시겠습니까?')) {
     // 이벤트를 발생시킨 요소의 부모 노드에 접근
     let button = event.target;
 
