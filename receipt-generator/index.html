@@ -16,7 +16,7 @@
     <div id="fixed-header">
         <h1>Receipt Gen.</h1>
         <span style="display: flex; justify-content: center; align-items: center;">
-            <button class="print-btn" onclick="print">출력</button>
+            <button class="print-btn" onclick="printReceipt()">출력</button>
         </span>
         <div id="selected-items">
             <span style="margin-left: 3px;">선택된 메뉴: </span>
@@ -34,6 +34,18 @@
         </div>
        
     </div>
+
+    <div id="modal" class="modal">
+        <img id="modal-image" src="">
+        <!-- <div class="description">영수증을 꾹 눌러서 저장</div> -->
+        <button id="close-btn" onclick="closeModal()">&times;</button>
+    </div>
+
+    <div class="preload" style="display: none;">
+        <img id="receiptUp" src="receiptUp.png">
+        <img id="receiptDown" src="receiptDown.png">
+    </div>
+  
     
     <script src="script.js"></script>
   </body>

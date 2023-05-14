@@ -1,3 +1,5 @@
+let selectedMenu = [];
+let menuJson;
 
 // 윈도우 로드시 fixed-header 사이즈 계산후 마진 추가
 window.onload = function() {
@@ -7,7 +9,7 @@ window.onload = function() {
   .then(response => response.json()) // 응답을 JSON으로 파싱합니다.
   .then(data => { // 파싱된 JSON 데이터를 받습니다.
     const menuSelectionDiv = document.getElementById('menu-items'); // 버튼을 추가할 div를 가져옵니다.
-
+    menuJson = data;
     data.forEach(item => { // 각각의 메뉴 아이템에 대해 반복합니다.
       let newButton = document.createElement('button');
       newButton.className = 'menu-btn';
@@ -58,7 +60,6 @@ function addMenu(event) {
   resize();
 }
 
-
 function deleteMenu(event) {
   // 사용자에게 정말로 삭제할 것인지 확인
   if (confirm('메뉴를 취소하시겠습니까?')) {
@@ -75,4 +76,93 @@ function deleteMenu(event) {
       resize();
     }, 200);
   }
+}
+
+function printReceipt() {
+
+  calcPrice();
+  const newCanvas = document.createElement('canvas');
+  const context = newCanvas.getContext('2d');
+
+  newCanvas.width = 500;
+
+  newCanvas.height = 290 + 278 + (2 + selectedMenu.length) * 25;
+
+  // HTML에 미리 로드된 이미지를 찾습니다.
+  const receiptUp = document.getElementById('receiptUp');
+  const receiptDown = document.getElementById('receiptDown')
+
+  // 이미지가 이미 로드되어 있으므로, load 이벤트 대신에 바로 drawImage를 사용합니다.
+  // console.log(selectedMenu);
+  context.fillStyle = 'white';
+  context.fillRect(0, 290, 500, (3 + selectedMenu.length) * 25 + 20);
+  context.drawImage(receiptUp, 0, 0, 500, 290);
+  context.drawImage(receiptDown, 0, 290 + (2 + selectedMenu.length) * 25, 500, 278);
+
+
+  const textX = 52;
+  const textY = 320;
+  let i = 0;
+  let totalPrice = 0;
+  selectedMenu.forEach((item) => {
+    context.font = '18px Inter';
+    context.fillStyle = 'black';
+    context.textAlign = 'start';
+    context.fillText(item.name, textX, textY + 25 * i);
+    context.textAlign = 'center'
+    context.fillText(item.numItems, textX + 266, textY + 25 * i);
+    context.textAlign = 'end';
+    context.fillText(item.price * item.numItems, textX + 395, textY + 25 * i);
+    totalPrice += item.price * item.numItems;
+    i += 1;
+  });
+
+  context.fillStyle = 'black';
+  context.fillRect(30, 290 + (1 + selectedMenu.length) * 25, 440, 2.3);
+  context.fillRect(30, 290 + (2 + selectedMenu.length) * 25 + 2.3, 440, 2.3);
+
+  context.font = '18px Inter';
+  context.fillStyle = 'black';
+  context.textAlign = 'start';
+  context.fillText('total price', textX, textY + 25 * (i) + 16);
+  context.textAlign = 'end';
+  context.fillText(totalPrice, textX + 395, textY + 25 * (i) + 16);
+
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modal-image");
+  modalImage.src = newCanvas.toDataURL("image/png");
+  modal.style.display = "block";
+
+  // 모달창 이외의 영역을 클릭하면 모달창이 닫히도록 설정합니다.
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+}
+
+function calcPrice() {
+  selectedMenu = [];
+
+  const selectedItemsContainer = document.getElementById('selected-items');
+  const selectedItems = selectedItemsContainer.querySelectorAll('button');
+
+  selectedItems.forEach((item) => {
+    if(selectedMenu.find(menu => menu.id == item.id)) {
+      selectedMenu.find(menu => menu.id == item.id).numItems += 1;
+    } else {
+      const menu = {
+        id: item.id,
+        name: menuJson.find(elem => elem.id == item.id).name,
+        price: menuJson.find(elem => elem.id == item.id).price,
+        numItems: 1
+      }
+      selectedMenu.push(menu);
+    }
+  });
+  
+}
+
+function closeModal() {
+  modal.style.display = "none";
 }

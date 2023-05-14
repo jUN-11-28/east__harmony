@@ -104,3 +104,114 @@ button:active {
     font-size: 15px;
     flex-wrap: nowrap;
 }
+
+.modal {
+    display: none; /* 초기에는 모달 숨기기 */
+    position: fixed;
+    align-items: center;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    animation: modal-appear 1s forwards;
+}
+
+.modal img {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    animation: image-appear 1s forwards;
+}
+
+@keyframes image-appear {
+    0% {
+        /* opacity: 0; */
+        transform: translate(-50%, -100%);
+    }
+    10% {
+        /* opacity: 0; */
+        transform: translate(-50%, -95%);
+    }
+    20% {
+        /* opacity: 0; */
+        transform: translate(-50%, -85%);
+    }
+    30% {
+        /* opacity: 0; */
+        transform: translate(-50%, -65%);
+    }
+    40% {
+        /* opacity: 0; */
+        transform: translate(-50%, -60%);
+    }
+    50% {
+        /* opacity: 0; */
+        transform: translate(-50%, -50%);
+    }
+    60% {
+        /* opacity: 0; */
+        transform: translate(-50%, -45%);
+    }
+    70% {
+        /* opacity: 0; */
+        transform: translate(-50%, -40%);
+    }
+    85% {
+        /* opacity: 0; */
+        transform: translate(-50%, -30%);
+    }
+    100% {
+        /* opacity: 1; */
+        transform: translate(-50%, -15%);
+    }
+} */
+
+.modal .description {
+    position: fixed;
+    top: 2%; /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}
+
+#close-btn {
+    position: fixed;
+    top: 3%; /* 이미지의 위치(20%) + 이미지 높이의 절반(80% / 2) */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    opacity: 0;
+    animation: button-appear 1.5s forwards;
+}
+
+@keyframes button-appear {
+    50% {
+        opacity: 0;
+        /* transform: translate(-50%, -100%); */
+    }
+    100% {
+        opacity: 1;
+        /* transform: translate(-50%, -20%); */
+    }
+} */
