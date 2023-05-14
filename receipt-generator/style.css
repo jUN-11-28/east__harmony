@@ -134,43 +134,41 @@ button:active {
 
 @keyframes image-appear {
     0% {
-        /* opacity: 0; */
         transform: translate(-50%, -100%);
     }
     10% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -95%);
     }
     20% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -85%);
     }
     30% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -65%);
     }
     40% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -60%);
     }
     50% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -50%);
     }
     60% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -45%);
     }
     70% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -40%);
     }
     85% {
-        /* opacity: 0; */
+
         transform: translate(-50%, -30%);
     }
     100% {
-        /* opacity: 1; */
         transform: translate(-50%, -15%);
     }
 } */
@@ -201,11 +199,15 @@ button:active {
     font-size: 30px;
     letter-spacing: 0px;
     line-height: 1.2;
-    opacity: 0;
+    opacity: 1;
     animation: button-appear 1.5s forwards;
 }
 
 @keyframes button-appear {
+    0% {
+        opacity: 0;
+        /* transform: translate(-50%, -100%); */
+    }
     50% {
         opacity: 0;
         /* transform: translate(-50%, -100%); */
