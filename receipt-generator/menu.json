@@ -90,6 +90,15 @@
         "status": true
     },
     {
+        "id": 10,
+        "name": "수박주스",
+        "price": 7500,
+        "category": "beverage",
+        "description": "(ICED only)",
+        "imageURL": "",
+        "status": true
+    },
+    {
         "id": 11,
         "name": "자몽차",
         "price": 7500,
@@ -109,12 +118,12 @@
     },
     {
         "id": 13,
-        "name": "그레인 스무디",
-        "price": 8000,
+        "name": "미숫가루 스무디",
+        "price": 7500,
         "category": "beverage",
         "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
         "imageURL": "",
-        "status": true
+        "status": false
     },
     {
         "id": 43,
