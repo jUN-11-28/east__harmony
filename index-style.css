@@ -89,6 +89,27 @@ body {
     border-radius: 22px;
 }
 
+#receiptGen {
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "DM Serif Display", "DM Serif Display Placeholder", serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    color: black;
+    background: #e6e6e6;
+    font-size: 1.5em;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.25);
+    align-content: center;
+    /* position: absolute; */
+    border-radius: 22px;
+}
+
 
 .link-container {
     margin: 0 auto;
