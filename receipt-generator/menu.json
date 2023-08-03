@@ -1,5 +1,14 @@
 [
     {
+        "id": 123,
+        "name": "테스트",
+        "price": 8000,
+        "category": "coffee",
+        "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
+        "imageURL": "menuImages/lemondade.jpg",
+        "status": false
+    },
+    {
         "id": 1,
         "name": "피치선셋",
         "price": 8000,

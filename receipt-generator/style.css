@@ -112,6 +112,16 @@ button:active {
     flex-wrap: nowrap;
 }
 
+.menu-btn img {
+    margin-left:-4px;
+    width: 100%; /* 이미지 너비를 버튼 영역에 맞게 조절 */
+    height: 100%; /* 이미지 높이를 버튼 영역에 맞게 조절 */
+  }
+
+.menu-btn img {
+    width: 45vw;
+}
+
 .modal {
     display: none; /* 초기에는 모달 숨기기 */
     position: fixed;
