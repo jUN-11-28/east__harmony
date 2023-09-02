@@ -6,7 +6,8 @@
         "category": "beverage",
         "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "category": "beverage",
         "description": "(발로나 초콜릿) 벨기에 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 5,
@@ -41,8 +45,9 @@
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
-        "status": true
+        "imageURL": "strawberryCreamLatte.png",
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "category": "beverage",
         "description": "설탕이 들어가지 않아 당도가 필요하시면 주문시 미리 말씀해주세요.",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 10,
@@ -69,7 +76,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 8,
@@ -78,7 +86,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 9,
@@ -87,7 +96,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 46,
@@ -96,7 +106,8 @@
         "category": "beverage",
         "description": "(ICED only)",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 11,
@@ -105,7 +116,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 12,
@@ -114,7 +126,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 13,
@@ -123,7 +136,8 @@
         "category": "beverage",
         "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
         "imageURL": "",
-        "status": false
+        "status": false,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 43,
@@ -132,7 +146,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 44,
@@ -141,7 +156,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 45,
@@ -150,7 +166,8 @@
         "category": "beverage",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 14,
@@ -159,7 +176,8 @@
         "category": "tea",
         "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 15,
@@ -168,7 +186,8 @@
         "category": "tea",
         "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 16,
@@ -177,7 +196,8 @@
         "category": "tea",
         "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 17,
@@ -186,7 +206,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["핫"]
     },
     {
         "id": 18,
@@ -195,7 +216,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 19,
@@ -204,7 +226,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 20,
@@ -213,7 +236,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": false
+        "status": false,
+        "temperature": ["핫"]
     },
     {
         "id": 21,
@@ -222,7 +246,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["핫"]
     },
     {
         "id": 22,
@@ -231,7 +256,8 @@
         "category": "coffee",
         "description": "바닐라빈으로 만든 수제시럽",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 23,
@@ -240,7 +266,8 @@
         "category": "coffee",
         "description": "(ICED only) 미니사이즈 라떼에 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 24,
@@ -249,7 +276,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스", "핫"]
     },
     {
         "id": 25,
@@ -258,7 +286,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 26,
@@ -267,7 +296,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 27,
@@ -276,7 +306,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 28,
@@ -285,7 +316,8 @@
         "category": "coffee",
         "description": "",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": ["아이스"]
     },
     {
         "id": 29,
@@ -294,7 +326,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 30,
@@ -303,7 +336,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 31,
@@ -312,7 +346,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 32,
@@ -321,7 +356,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.찹쌀떡",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 33,
@@ -330,7 +366,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 34,
@@ -339,7 +376,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 35,
@@ -348,7 +386,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 아몬드(미국)",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 36,
@@ -357,7 +396,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 37,
@@ -366,7 +406,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 38,
@@ -375,7 +416,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 롱 소세지 마늘파우더",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 39,
@@ -384,7 +426,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 40,
@@ -393,7 +436,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 41,
@@ -402,7 +446,8 @@
         "category": "bakery",
         "description": "• 프랑스 레스큐어 버터 • 미국산 아몬드 파우더",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     },
     {
         "id": 42,
@@ -411,7 +456,8 @@
         "category": "bakery",
         "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.옥수수",
         "imageURL": "",
-        "status": true
+        "status": true,
+        "temperature": null
     }
 ]
   
