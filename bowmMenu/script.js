@@ -86,10 +86,10 @@ function showMenuDetails(item) {
   // 메뉴 목록 숨기기
   document.getElementById('main-display').style.display = 'none';
 
-  window.scrollTo(0, 0);
   // 세부 정보 화면 표시
   const menuSpecDisplay = document.getElementById('menu-spec-display');
   menuSpecDisplay.style.display = 'flex';
+  window.scrollTo(0, 0);
 
   // 세부 정보 업데이트
   menuSpecDisplay.querySelector('.menu-spec-img').src = 'menuImg/' + item.imageURL;
@@ -165,6 +165,8 @@ document.querySelector('#add-menu-btn').addEventListener('click', function() {
 
   document.getElementById('main-display').style.display = 'block';
   document.getElementById('menu-spec-display').style.display = 'none';
+
+  window.scrollTo(0, savedScrollPosition);
 });
 
 document.querySelector('.close-btn').addEventListener('click', function() {
