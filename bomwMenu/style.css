@@ -99,7 +99,7 @@ h4 {
   top: -45%;
 }
 
-.selected-menu-btn {
+.bottom-btn {
   position: fixed;
     /* 고정 위치 */
     bottom: 30px;
@@ -121,7 +121,7 @@ h4 {
   transition: all 0.5s ease;
 }
 
-.selected-menu-container {
+.bottomt-container {
   position: fixed;
   bottom: 0px;
   left: 50%;
@@ -197,6 +197,11 @@ h4 {
 
 .option-container {
   display: flex;
+  flex-direction: column;
+}
+
+.option-btn-container {
+  display: flex;
   flex-direction: row;
   gap: 3%;
   margin-left: 10px;
@@ -209,6 +214,13 @@ h4 {
   border-radius: 10px;
   text-align: center;
   line-height: 30px;
+}
+
+.selected {
+  background-color: #4c87af;
+  /* 또는 원하는 색상 */
+  color: white;
+  /* 또는 원하는 색상 */
 }
 
 .close-btn {

@@ -20,7 +20,7 @@
       <h1>BOWM MENU</h1>
       <div class="main-container">
         <div class="menu-container">
-          <h3>Coffee</h3>
+          <!-- <h3>Coffee</h3>
           <div class="each-category-container">
             <div class="item-container">
               <img src="menuImg/딸기크림최종.png" class="menu-img" \>
@@ -32,9 +32,9 @@
             <div class="item-container">
               <img src="menuImg/딸기크림최종.png" class="menu-img" \>
             </div>
-          </div>
+          </div> -->
 
-          <h3>Beverage</h3>
+          <!-- <h3>Beverage</h3>
           <div class="each-category-container">
             <div class="item-container">
               <img src="menuImg/딸기크림최종.png" class="menu-img" \>
@@ -45,13 +45,17 @@
             <div class="item-container">
               <img src="menuImg/딸기크림최종.png" class="menu-img" \>
             </div>
-          </div>
-          <div class="selected-menu-container"></div>
-          <div class="selected-menu-btn">
-            선택한 메뉴 보기
-          </div>
+          </div> -->
+
+        </div>
+
+        <div class="bottom-container"></div>
+        <div class="bottom-btn" id="selected-menu-btn">
+          선택한 메뉴 보기 <span id="selected-menu-quantity"></span>
         </div>
       </div>
+
+      <div class="empty-container"></div>
     </div>
 
     <div id="menu-spec-display" style="display: none;">
@@ -59,48 +63,66 @@
       <div class="menu-img-container">
         <img src="menuImg/딸기크림최종.png" class="menu-spec-img" \>
       </div>
-      
+
       <div class="menu-spec-container">
         <div class="name-quantity">
           <h3>아메리카노 5500₩</h3>
           <div class="quantity-container">
-            <button class="quantity-btn">-</button>
-            <div id="quantity"> 1 </div>
-            <button class="quantity-btn">+</button>
+            <button class="quantity-btn" id="decrease-quantity">-</button>
+            <div id="quantity">1</div>
+            <button class="quantity-btn" id="increase-quantity">+</button>
           </div>
         </div>
 
         <div class="options-container">
-          <h4 id="temperature">핫 / 아이스</h4>
-          <div class="option-container">
-            <div class="option">
-              핫 🔥
-            </div>
-            <div class="option">
-              아이스 🧊
-            </div>
-          </div>
-
-          <h4 id="addShot">샷추가 (500₩)</h4>
-          <div class="option-container">
-            <div class="option">
-              연하게
-            </div>
-            <div class="option">
-              샷추가
+          <div class="option-container" id="temperature">
+            <h4>핫 / 아이스</h4>
+            <div class="option-btn-container">
+              <div class="option" id="hot">
+                핫 🔥
+              </div>
+              <div class="option" id="ice">
+                아이스 🧊
+              </div>
             </div>
           </div>
 
-          <h4 id="decaf">디카페인 (1000₩)</h4>
-          <div class="option-container">
-            <div class="option">
-              디카페인
+          <div class="option-container" id="addShot">
+            <h4>샷추가 (500₩)</h4>
+            <div class="option-btn-container">
+              <div class="option" id="light">
+                연하게
+              </div>
+              <div class="option" id="heavy">
+                샷추가
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="selected-menu-container"></div>
-        <div class="selected-menu-btn">
+          <div class="option-container" id="decaf">
+            <h4>디카페인 (1000₩)</h4>
+            <div class="option-btn-container">
+              <div class="option" id="decaf-decaf">
+                디카페인
+              </div>
+            </div>
+          </div>
+
+          <div class="option-container" id="sparkling">
+            <h4>스파클링</h4>
+            <div class="option-btn-container">
+              <div class="option" id="water">
+                물
+              </div>
+              <div class="option" id="sparkling-sparkling">
+                스파클링
+              </div>
+            </div>
+          </div>
+
+
+        <div class="bottom-container"></div>
+        <div class="bottom-btn" id="add-menu-btn">
           메뉴 추가
         </div>
       </div>
