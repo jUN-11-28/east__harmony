@@ -189,6 +189,7 @@ function removeMenuItem(menuItem) {
 }
 
 function displaySelectedMenus() {
+  sortMenuItems();
   const selectedMenusContainer = document.getElementById('selected-menus-container');
   selectedMenusContainer.style.display = 'flex';
   document.getElementById('main-display').style.display = 'none';
@@ -267,6 +268,17 @@ function displaySelectedMenus() {
 
   // 총 음료 수 업데이트
   document.querySelector('#quantity').textContent = selectedMenus.length;
+}
+
+function sortMenuItems() {
+  selectedMenus.sort((a, b) => {
+    // 메뉴 이름과 옵션들을 문자열로 결합
+    const aKey = a.item.name + ' ' + Object.values(a.options).sort().join(' ');
+    const bKey = b.item.name + ' ' + Object.values(b.options).sort().join(' ');
+
+    // 문자열 기준으로 오름차순 정렬
+    return aKey.localeCompare(bKey);
+  });
 }
 
 document.querySelector('#add-menu-btn').addEventListener('click', function() {
