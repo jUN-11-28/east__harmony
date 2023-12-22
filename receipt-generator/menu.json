@@ -5,7 +5,7 @@
         "price": 8000,
         "category": "beverage",
         "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
-        "imageURL": "",
+        "imageURL": "피치선셋.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -20,7 +20,7 @@
         "price": 8000,
         "category": "beverage",
         "description": "(발로나 초콜릿) 벨기에 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
-        "imageURL": "",
+        "imageURL": "초코라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -35,7 +35,7 @@
         "price": 8000,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "말차라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -50,7 +50,7 @@
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "자색고구마라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -61,11 +61,11 @@
     },
     {
         "id": 5,
-        "name": "딸기크림라떼",
+        "name": "딸기라떼",
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": "strawberryCreamLatte.png",
+        "imageURL": "딸기라떼.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -79,8 +79,8 @@
         "name": "얼그레이 밀크티",
         "price": 7000,
         "category": "beverage",
-        "description": "설탕이 들어가지 않아 당도가 필요하시면 주문시 미리 말씀해주세요.",
-        "imageURL": "",
+        "description": "얼그레이를 직접 냉침하여 향이 강해요!",
+        "imageURL": "밀크티.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -95,7 +95,7 @@
         "price": 6500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "복숭아아이스티.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -110,7 +110,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "레몬에이드.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -125,7 +125,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "자몽에이드.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -140,7 +140,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "오미자에이드.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -155,7 +155,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "(ICED only)",
-        "imageURL": "",
+        "imageURL": "수박주스.png",
         "status": false,
         "option": {
             "temperature": false,
@@ -170,7 +170,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "자몽차.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -185,7 +185,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "오미자차.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -200,7 +200,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
-        "imageURL": "",
+        "imageURL": "미숫가루스무디.png",
         "status": false,
         "option": {
             "temperature": false,
@@ -215,7 +215,7 @@
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "플레인요거트스무디.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -230,7 +230,7 @@
         "price": 8000,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "딸기요거트스무디.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -245,7 +245,7 @@
         "price": 8000,
         "category": "beverage",
         "description": "",
-        "imageURL": "",
+        "imageURL": "블루베리요거트스무디.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -260,7 +260,7 @@
         "price": 6500,
         "category": "tea",
         "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
-        "imageURL": "",
+        "imageURL": "아쿠아로사.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -275,7 +275,7 @@
         "price": 6500,
         "category": "tea",
         "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
-        "imageURL": "",
+        "imageURL": "아쿠아로사.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -290,7 +290,7 @@
         "price": 6500,
         "category": "tea",
         "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
-        "imageURL": "",
+        "imageURL": "아쿠아로사.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -305,7 +305,7 @@
         "price": 5500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "에스프레소.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -320,7 +320,7 @@
         "price": 5500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "아메리카노.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -335,7 +335,7 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "카페라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -350,7 +350,7 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "카푸치노.png",
         "status": false,
         "option": {
             "temperature": false,
@@ -380,7 +380,7 @@
         "price": 7000,
         "category": "coffee",
         "description": "바닐라빈으로 만든 수제시럽",
-        "imageURL": "",
+        "imageURL": "바닐라빈라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -395,7 +395,7 @@
         "price": 7000,
         "category": "coffee",
         "description": "(ICED only) 미니사이즈 라떼에 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
-        "imageURL": "",
+        "imageURL": "보움라떼.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -410,7 +410,7 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "말차카페라떼.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -425,7 +425,7 @@
         "price": 6500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "콜드브루.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -440,7 +440,7 @@
         "price": 7000,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "콜드브루라떼.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -455,7 +455,7 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "바닐라콜드브루라떼.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -470,7 +470,7 @@
         "price": 7500,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "돌체콜드브루라떼.png",
         "status": true,
         "option": {
             "temperature": false,
