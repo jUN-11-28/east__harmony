@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BOWM MENU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="BOWM 보움 메뉴">
+    <meta property="og:description" content="BOWM 보움 메뉴">
+    <meta property="og:image" content="appLogo.png">
+  </head>
+  <body>
+    <div id="main-display" style="display: none;">
+      <h1>BOWM MENU</h1>
+      <div class="main-container">
+        <div class="menu-container">
+          <h3>Coffee</h3>
+          <div class="each-category-container">
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+
+            </div>
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+            </div>
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+            </div>
+          </div>
+
+          <h3>Beverage</h3>
+          <div class="each-category-container">
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+            </div>
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+            </div>
+            <div class="item-container">
+              <img src="menuImg/딸기크림최종.png" class="menu-img" \>
+            </div>
+          </div>
+          <div class="selected-menu-container"></div>
+          <div class="selected-menu-btn">
+            선택한 메뉴 보기
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu-spec-display">
+      <div class="menu-img-container">
+        <img src="menuImg/딸기크림최종.png" class="menu-spec-img" \>
+      </div>
+      <div class="close-btn">X</div>
+      <div class="menu-spec-container">
+        <div class="name-quantity">
+          <h3>아메리카노 5500₩</h3>
+          <div class="quantity-container">
+            <button class="quantity-btn">-</button>
+            <div id="quantity"> 1 </div>
+            <button class="quantity-btn">+</button>
+          </div>
+        </div>
+
+        <div class="options-container">
+          <h4 id="temperature">핫 / 아이스</h4>
+          <div class="option-container">
+            <div class="option">
+              핫 🔥
+            </div>
+            <div class="option">
+              아이스 🧊
+            </div>
+          </div>
+
+          <h4 id="addShot">샷추가 (500₩)</h4>
+          <div class="option-container">
+            <div class="option">
+              연하게
+            </div>
+            <div class="option">
+              샷추가
+            </div>
+          </div>
+
+          <h4 id="decaf">디카페인 (1000₩)</h4>
+          <div class="option-container">
+            <div class="option">
+              디카페인
+            </div>
+          </div>
+        </div>
+
+        <div class="selected-menu-container"></div>
+        <div class="selected-menu-btn">
+          메뉴 추가
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-container"></div>
+    <!-- add video tag here -->
+    <video autoplay loop muted playsinline class="bg">
+      <!-- <source src="/assets/video/backgroundVideo.mp4" type="video/mp4"> -->
+    </video>
+    <script src="script.js"></script>
+  </body>
+</html>

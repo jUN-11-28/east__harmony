@@ -1,0 +1,230 @@
+body {
+  font-family: 'Archivo Black', sans-serif;
+  /* overflow: hidden; */
+  /* color: white; */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  /* display: flex; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  /* display: fixed; */
+}
+
+h3 {
+  font-family: 'Archivo ', sans-serif;
+  margin-left: 10px;
+}
+
+h4 {
+  font-family: 'Archivo ', sans-serif;
+  margin-left: 10px;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  z-index: -1;
+  /* set z-index so it will be behind other elements */
+  object-fit: cover;
+  /* filter: blur(5px); */
+}
+
+.main-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 90vw;
+  /* background-color: black; */
+}
+
+.menu-container::-webkit-scrollbar {
+  display: none;
+}
+
+.each-category-container {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  padding: 10px;
+  /* border: 1px solid black; */
+  gap: 10px;
+  /* white-space: nowrap; */
+}
+
+.each-category-container::-webkit-scrollbar {
+  display: none;
+}
+
+.item-container {
+  /* background-color: black; */
+  flex: 0 0 40vw;
+  height: 50vw;
+  /* height: 200px;
+  width: 150px; */
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  position: relative;
+  /* 위치 조정을 위해 필요 */
+  transition: all 0.5s ease;
+  /* 애니메이션 효과를 위한 전환 설정 */
+}
+
+.menu-img{
+  width: 120%;
+  position: absolute;
+  left: -10%;
+  top: -45%;
+}
+
+.selected-menu-btn {
+  position: fixed;
+    /* 고정 위치 */
+    bottom: 30px;
+    /* 하단에서부터의 거리 */
+    left: 50%;
+    /* 중앙 정렬을 위한 설정 */
+    transform: translateX(-50%);
+    /* 완벽한 중앙 정렬을 위해 */
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.selected-menu-container {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  filter: blur(5px);
+  opacity: 80%;
+}
+
+.empty-container {
+  height: 100px;
+}
+
+#menu-spec-display {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-img-container {
+  width: 100vw;
+  height: 50vw;
+  background-color: black;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.menu-spec-img {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  object-position: center -50vw;
+}
+
+.menu-spec-container {
+  width: 90vw;
+  /* border: 1px solid black; */
+}
+
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  gap: 10px;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.quantity-btn {
+  flex: 1;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.quantity {
+  flex: 1;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-left: 10px;
+}
+
+.option {
+  width: 30vw;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  color: black;
+  background-color: rgb(250, 150, 150);
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
