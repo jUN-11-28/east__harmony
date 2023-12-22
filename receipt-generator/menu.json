@@ -365,7 +365,7 @@
         "price": 6000,
         "category": "coffee",
         "description": "",
-        "imageURL": "",
+        "imageURL": "bowm.png",
         "status": true,
         "option": {
             "temperature": true,
