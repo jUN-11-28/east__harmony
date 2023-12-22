@@ -275,7 +275,7 @@
         "price": 6500,
         "category": "beverage",
         "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
-        "imageURL": "아쿠아로사.png",
+        "imageURL": "엑스퓨레에딕트.png",
         "status": true,
         "option": {
             "temperature": true,
@@ -290,7 +290,7 @@
         "price": 6500,
         "category": "beverage",
         "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
-        "imageURL": "아쿠아로사.png",
+        "imageURL": "부케플라워스.png",
         "status": true,
         "option": {
             "temperature": true,
