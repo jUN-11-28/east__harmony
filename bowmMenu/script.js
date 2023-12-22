@@ -82,9 +82,11 @@ function showMenuDetails(item) {
 
   savedScrollPosition = window.scrollY || document.documentElement.scrollTop;
 
+
   // 메뉴 목록 숨기기
   document.getElementById('main-display').style.display = 'none';
 
+  window.scrollTo(0, 0);
   // 세부 정보 화면 표시
   const menuSpecDisplay = document.getElementById('menu-spec-display');
   menuSpecDisplay.style.display = 'flex';
