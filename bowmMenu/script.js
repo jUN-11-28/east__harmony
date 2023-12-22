@@ -148,6 +148,127 @@ function getCurrentSelection(item) {
   };
 }
 
+// 메뉴와 선택된 옵션을 기준으로 그룹화하고 수량 계산
+function groupMenuItems(selectedMenus) {
+  const menuGroups = {};
+
+  selectedMenus.forEach(menu => {
+    // 메뉴와 옵션을 문자열로 변환하여 그룹 키 생성
+    const key = menu.item.name + ' ' + Object.values(menu.options).join(' ');
+
+    if (!menuGroups[key]) {
+      menuGroups[key] = { item: menu.item, options: menu.options, quantity: 1 };
+    } else {
+      menuGroups[key].quantity += 1;
+    }
+  });
+
+  return menuGroups;
+}
+
+// 메뉴 아이템 추가
+function addMenuItem(menuItem) {
+  selectedMenus.push(menuItem);
+  selectedMenuQuantity = selectedMenus.length;
+  document.getElementById('selected-menu-quantity').textContent = `${selectedMenuQuantity}`;
+  displaySelectedMenus(); // 화면 다시 그리기
+}
+
+// 메뉴 아이템 제거
+function removeMenuItem(menuItem) {
+  const index = selectedMenus.findIndex(menu =>
+    menu.item.name === menuItem.item.name &&
+    JSON.stringify(menu.options) === JSON.stringify(menuItem.options)
+  );
+  if (index > -1) {
+    selectedMenus.splice(index, 1);
+    selectedMenuQuantity = selectedMenus.length;
+    document.getElementById('selected-menu-quantity').textContent = `${selectedMenuQuantity}`;
+    displaySelectedMenus(); // 화면 다시 그리기
+  }
+}
+
+function displaySelectedMenus() {
+  const selectedMenusContainer = document.getElementById('selected-menus-container');
+  selectedMenusContainer.style.display = 'flex';
+  document.getElementById('main-display').style.display = 'none';
+  window.scrollTo(0, 0);
+  const finalQuantity = document.getElementById('final-quantity');
+  finalQuantity.textContent = `${selectedMenuQuantity}`;
+  const menuGroups = groupMenuItems(selectedMenus);
+  const optionTextMapping = {
+    'hot': '핫',
+    'ice': '아이스',
+    'light': '연하게',
+    'heavy': '샷추가',
+    'decaf-decaf': '디카페인',
+    'water': '물',
+    'sparkling-sparkling': '스파클링'
+  };
+
+  const menusContainerContainer = document.querySelector('.menus-container-container');
+  menusContainerContainer.innerHTML = ''; // 컨테이너 초기화
+
+  // 각 메뉴 그룹에 대한 정보 표시
+  for (const [key, group] of Object.entries(menuGroups)) {
+
+    const menusContainer = document.createElement('div');
+    menusContainer.className = 'menus-container';
+    const menuInfo = document.createElement('div');
+    menuInfo.className = 'menu-info';
+
+    const menuName = document.createElement('div');
+    menuName.className = 'menu-name';
+    menuName.textContent = group.item.name;
+
+    const selectedOptions = document.createElement('div');
+    selectedOptions.className = 'selected-options';
+    selectedOptions.textContent = Object.values(group.options).map(optionKey => optionTextMapping[optionKey] || optionKey).join(' ');
+
+    menuInfo.appendChild(menuName);
+    menuInfo.appendChild(selectedOptions);
+
+    // 수량 조절 컨테이너 추가
+    const quantityContainer = document.createElement('div');
+    quantityContainer.className = 'final-quantity-container';
+
+    const decreaseBtn = document.createElement('button');
+    decreaseBtn.className = 'quantity-btn';
+    decreaseBtn.textContent = '-';
+    // 이벤트 리스너 추가
+    decreaseBtn.addEventListener('click', function() {
+      removeMenuItem(group);
+    });
+
+
+    const quantityDisplay = document.createElement('div');
+    quantityDisplay.className = 'quantity';
+    quantityDisplay.textContent = group.quantity;
+
+    const increaseBtn = document.createElement('button');
+    increaseBtn.className = 'quantity-btn';
+    increaseBtn.textContent = '+';
+    // 이벤트 리스너 추가
+    increaseBtn.className = 'quantity-btn';
+    increaseBtn.textContent = '+';
+    increaseBtn.addEventListener('click', function() {
+      addMenuItem(group);
+    });
+
+    quantityContainer.appendChild(decreaseBtn);
+    quantityContainer.appendChild(quantityDisplay);
+    quantityContainer.appendChild(increaseBtn);
+
+    menusContainer.appendChild(menuInfo);
+    menusContainer.appendChild(quantityContainer);
+
+    menusContainerContainer.appendChild(menusContainer);
+  }
+
+  // 총 음료 수 업데이트
+  document.querySelector('#quantity').textContent = selectedMenus.length;
+}
+
 document.querySelector('#add-menu-btn').addEventListener('click', function() {
   // 현재 선택된 메뉴와 옵션 가져오기
   let currentSelection = getCurrentSelection(currentItem); // 'currentItem'은 현재 선택된 메뉴 아이템을 나타냄
@@ -169,10 +290,18 @@ document.querySelector('#add-menu-btn').addEventListener('click', function() {
   window.scrollTo(0, savedScrollPosition);
 });
 
-document.querySelector('.close-btn').addEventListener('click', function() {
+document.querySelector('.close-btn').addEventListener('click', function () {
+  console.log("click");
   document.getElementById('main-display').style.display = 'block';
   document.getElementById('menu-spec-display').style.display = 'none';
+  document.getElementById('selected-menus-container').style.display = 'none';
+  window.scrollTo(0, savedScrollPosition);
+});
 
+document.querySelector('#close-selected-menu').addEventListener('click', function () {
+  console.log("click");
+  document.getElementById('main-display').style.display = 'block';
+  document.getElementById('selected-menus-container').style.display = 'none';
   window.scrollTo(0, savedScrollPosition);
 });
 
@@ -212,4 +341,8 @@ document.querySelectorAll('.option').forEach(option => {
       }
     });
   });
+});
+
+document.querySelector('#selected-menu-btn').addEventListener('click', function() {
+  displaySelectedMenus();
 });

@@ -57,13 +57,11 @@
 
       <div class="empty-container"></div>
     </div>
-
     <div id="menu-spec-display" style="display: none;">
       <div class="close-btn">X</div>
       <div class="menu-img-container">
         <img src="menuImg/딸기크림최종.png" class="menu-spec-img" \>
       </div>
-
       <div class="menu-spec-container">
         <div class="name-quantity">
           <h3>아메리카노 5500₩</h3>
@@ -119,11 +117,28 @@
               </div>
             </div>
           </div>
-
-
+        </div>
         <div class="bottom-container"></div>
         <div class="bottom-btn" id="add-menu-btn">
           메뉴 추가
+        </div>
+      </div>
+    </div>
+
+    <div id="selected-menus-container" style="display: none;">
+      <div class="close-btn" id="close-selected-menu">X</div>
+      총 음료 수 <span id="final-quantity"></span>
+      <div class="menus-container-container">
+        <div class="menus-container">
+          <div class="menu-info">
+            <div class="menu-name">아메리카노</div>
+            <div class="selected-options">핫 연하게 디카페인</div>
+          </div>
+          <div class="final-quantity-container">
+            <button class="quantity-btn" id="decrease-quantity">-</button>
+            <div class="quantity">1</div>
+            <button class="quantity-btn" id="increase-quantity">+</button>
+          </div>
         </div>
       </div>
     </div>
