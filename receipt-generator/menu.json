@@ -395,7 +395,7 @@
         "price": 6500,
         "category": "coffee",
         "description": "",
-        "imageURL": "보움로고.png",
+        "imageURL": "플랫화이트.png",
         "status": true,
         "option": {
             "temperature": true,
