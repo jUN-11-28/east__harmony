@@ -65,7 +65,7 @@
         "price": 7000,
         "category": "beverage",
         "description": "",
-        "imageURL": "보움로고.png",
+        "imageURL": "진저라떼.png",
         "status": true,
         "option": {
             "temperature": false,
@@ -210,12 +210,12 @@
         }
     },
     {
-        "id": 12,
+        "id": 55,
         "name": "생강차",
         "price": 7500,
         "category": "beverage",
         "description": "",
-        "imageURL": "보움로고.png",
+        "imageURL": "생강차.png",
         "status": true,
         "option": {
             "temperature": false,
