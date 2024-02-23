@@ -60,6 +60,21 @@
         }
     },
     {
+        "id": 50,
+        "name": "진저라떼",
+        "price": 7000,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "보움로고.png",
+        "status": true,
+        "option": {
+            "temperature": false,
+            "decaf": false,
+            "sparkling": false,
+            "addShot": false
+        }
+    },
+    {
         "id": 5,
         "name": "딸기라떼",
         "price": 7000,
@@ -181,11 +196,26 @@
     },
     {
         "id": 12,
-        "name": "오미자차",
+        "name": "문경 오미자차",
         "price": 7500,
         "category": "beverage",
         "description": "",
         "imageURL": "오미자차.png",
+        "status": true,
+        "option": {
+            "temperature": false,
+            "decaf": false,
+            "sparkling": false,
+            "addShot": false
+        }
+    },
+    {
+        "id": 12,
+        "name": "생강차",
+        "price": 7500,
+        "category": "beverage",
+        "description": "",
+        "imageURL": "보움로고.png",
         "status": true,
         "option": {
             "temperature": false,
