@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;"
+    />
+
+    <title>bowm menu</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: white;
+        color: #000;
+        width: 100vw;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: normal;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+      }
+
+      .menu-container {
+        /* max-width: 1200px; */
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+      }
+
+      .menu-item {
+        border-top: 2px solid #000;
+        border-right: 2px solid #000;
+        /* padding: 20px; */
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .menu-item:nth-child(2n) {
+        /* border-right: none; */
+      }
+
+      .menu-item img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-bottom: 2px solid black;
+      }
+
+      .menu-info {
+        padding: 0 10px 10px 10px;
+      }
+
+      .menu-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu-name,
+      .menu-price {
+        font-size: 16px;
+        font-weight: normal;
+        white-space: nowrap;
+      }
+
+      .menu-option-container {
+        margin-top: 5px; /* 이름과 가격 아래에 간격 추가 */
+      }
+
+      .menu-option {
+      }
+
+      @media (min-width: 768px) {
+        .menu-container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .menu-item:nth-child(2n) {
+          border-right: 2px solid #000;
+        }
+
+        .menu-item:nth-child(3n) {
+          /* border-right: none; */
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .menu-container {
+          grid-template-columns: repeat(4, 1fr);
+        }
+
+        .menu-item:nth-child(3n) {
+          border-right: 2px solid #000;
+        }
+
+        .menu-item:nth-child(4n) {
+          /* border-right: none; */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>bowm</h1>
+    <div class="menu-container" id="menuContainer"></div>
+
+    <script>
+      const menuJsonUrl =
+        "https://east-harmony.com/receipt-generator/menu.json";
+
+      async function fetchMenuData() {
+        try {
+          const response = await fetch(menuJsonUrl);
+          if (!response.ok) {
+            throw new Error(
+              "Network response was not ok: " + response.statusText
+            );
+          }
+          const data = await response.json();
+          renderMenuItems(data);
+        } catch (error) {
+          console.error("Fetch error:", error);
+          showError("메뉴를 불러오는데 실패했습니다. 다시 시도해 주세요.");
+        }
+      }
+
+      function renderMenuItems(menuData) {
+        const container = document.getElementById("menuContainer");
+        container.innerHTML = menuData
+          .map(
+            (item) => `
+                        <div class="menu-item">
+                            <img src="menuImg/${item.imageURL}" alt="${
+              item.name
+            }">
+                            <div class="menu-info">
+                                <div class="menu-header">
+                                  <h2 class="menu-name">${item.name}</h2>
+                                  <span class="menu-price">₩${item.price.toLocaleString()}</span>
+                                </div>
+                                <div class="menu-option-container">hello</div>
+                            </div>
+                        </div>
+                    `
+          )
+          .join("");
+      }
+
+      function showError(message) {
+        const container = document.getElementById("menuContainer");
+        container.innerHTML = `
+                <div class="error">
+                    ${message}
+                    <br>
+                    <button onclick="fetchMenuData()" style="margin-top: 10px; padding: 5px 10px;">
+                        다시 시도
+                    </button>
+                </div>
+            `;
+      }
+
+      // Initial fetch
+      fetchMenuData();
+    </script>
+  </body>
+</html>
