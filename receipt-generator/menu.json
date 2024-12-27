@@ -1,653 +1,652 @@
 [
-    {
-        "id": 1,
-        "name": "피치선셋",
-        "price": 8000,
-        "category": "beverage",
-        "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
-        "imageURL": "피치선셋.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": true,
-            "addShot": false
-        }
-    },
-    {
-        "id": 2,
-        "name": "보움초코라떼",
-        "price": 8000,
-        "category": "beverage",
-        "description": "(발로나 초콜릿) 벨기에 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
-        "imageURL": "초코라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 3,
-        "name": "보움말차라떼",
-        "price": 8000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "말차라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 4,
-        "name": "자색고구마라떼",
-        "price": 7000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "자색고구마라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 50,
-        "name": "진저라떼",
-        "price": 7000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "진저라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 5,
-        "name": "딸기라떼",
-        "price": 7000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "딸기라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 6,
-        "name": "얼그레이 밀크티",
-        "price": 7000,
-        "category": "beverage",
-        "description": "얼그레이를 직접 냉침하여 향이 강해요!",
-        "imageURL": "밀크티.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 7,
-        "name": "복숭아 아이스티",
-        "price": 6500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "복숭아아이스티.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 10,
-        "name": "생 레몬에이드",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "레몬에이드.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 8,
-        "name": "자몽에이드",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "자몽에이드.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 9,
-        "name": "오미자에이드",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "오미자에이드.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 46,
-        "name": "수박주스",
-        "price": 7500,
-        "category": "beverage",
-        "description": "(ICED only)",
-        "imageURL": "수박주스.png",
-        "status": false,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 11,
-        "name": "자몽차",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "자몽차.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 12,
-        "name": "오미자차",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "오미자차.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 55,
-        "name": "생강차",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "생강차.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 13,
-        "name": "미숫가루 스무디",
-        "price": 7500,
-        "category": "beverage",
-        "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
-        "imageURL": "미숫가루스무디.png",
-        "status": false,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 43,
-        "name": "플레인 요거트 스무디",
-        "price": 7500,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "플레인요거트스무디.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 44,
-        "name": "딸기 요거트 스무디",
-        "price": 8000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "딸기요거트스무디.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 45,
-        "name": "블루베리 요거트 스무디",
-        "price": 8000,
-        "category": "beverage",
-        "description": "",
-        "imageURL": "블루베리요거트스무디.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 14,
-        "name": "아쿠아로사",
-        "price": 6500,
-        "category": "beverage",
-        "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
-        "imageURL": "아쿠아로사.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 15,
-        "name": "엑스퓨레 에딕트",
-        "price": 6500,
-        "category": "beverage",
-        "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
-        "imageURL": "엑스퓨레에딕트.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 16,
-        "name": "부케 플라워스",
-        "price": 6500,
-        "category": "beverage",
-        "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
-        "imageURL": "부케플라워스.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 17,
-        "name": "에스프레소",
-        "price": 5500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "에스프레소.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 18,
-        "name": "아메리카노",
-        "price": 5500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "아메리카노.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 19,
-        "name": "라떼",
-        "price": 6500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "카페라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 20,
-        "name": "카푸치노",
-        "price": 6500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "카푸치노.png",
-        "status": false,
-        "option": {
-            "temperature": false,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 21,
-        "name": "플랫화이트",
-        "price": 6500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "플랫화이트.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 22,
-        "name": "바닐라빈 라떼",
-        "price": 7000,
-        "category": "coffee",
-        "description": "바닐라빈으로 만든 수제시럽",
-        "imageURL": "바닐라빈라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 23,
-        "name": "보움라떼",
-        "price": 7000,
-        "category": "coffee",
-        "description": "(ICED only) 미니사이즈 라떼에 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
-        "imageURL": "보움라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 24,
-        "name": "말차카페라떼",
-        "price": 7500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "말차카페라떼.png",
-        "status": true,
-        "option": {
-            "temperature": true,
-            "decaf": true,
-            "sparkling": false,
-            "addShot": true
-        }
-    },
-    {
-        "id": 25,
-        "name": "콜드브루",
-        "price": 6500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "콜드브루.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 26,
-        "name": "콜드브루라떼",
-        "price": 7000,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "콜드브루라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 27,
-        "name": "바닐라 콜드브루라떼",
-        "price": 7500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "바닐라콜드브루라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 28,
-        "name": "돌체콜드브루라떼",
-        "price": 7500,
-        "category": "coffee",
-        "description": "",
-        "imageURL": "돌체콜드브루라떼.png",
-        "status": true,
-        "option": {
-            "temperature": false,
-            "decaf": false,
-            "sparkling": false,
-            "addShot": false
-        }
-    },
-    {
-        "id": 29,
-        "name": "몽블랑",
-        "price": 6500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 30,
-        "name": "데니쉬 앙버터",
-        "price": 6500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 31,
-        "name": "팡도르",
-        "price": 6500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 32,
-        "name": "인절미 팡도르",
-        "price": 7000,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.찹쌀떡",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 33,
-        "name": "크루아상",
-        "price": 5000,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 34,
-        "name": "크림 크루아상",
-        "price": 5500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 35,
-        "name": "아몬드 크루아상",
-        "price": 6000,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 아몬드(미국)",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 36,
-        "name": "빵오 쇼콜라",
-        "price": 5500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 37,
-        "name": "빵오 쇼콜라 초코코팅",
-        "price": 6500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 38,
-        "name": "롱 소세지 데니쉬",
-        "price": 7500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 롱 소세지 마늘파우더",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 39,
-        "name": "마늘빵",
-        "price": 5000,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 40,
-        "name": "데니쉬 마늘빵",
-        "price": 5500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 41,
-        "name": "메론빵",
-        "price": 4500,
-        "category": "bakery",
-        "description": "• 프랑스 레스큐어 버터 • 미국산 아몬드 파우더",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
-    },
-    {
-        "id": 42,
-        "name": "옥수수 단과자빵",
-        "price": 3500,
-        "category": "bakery",
-        "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.옥수수",
-        "imageURL": "",
-        "status": true,
-        "temperature": null
+  {
+    "id": 1,
+    "name": "피치선셋",
+    "price": 8000,
+    "category": "beverage",
+    "description": "(WATER or SPARKLING) BOWM의 슬로건을 모티브로 만든 복숭아 에이드",
+    "imageURL": "피치선셋.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": true,
+      "addShot": false
     }
+  },
+  {
+    "id": 2,
+    "name": "보움초코라떼",
+    "price": 8500,
+    "category": "beverage",
+    "description": "(발로나 초콜릿) 벨기에 초콜릿을 중탕하여 만든 보움만의 특별한 초코라떼",
+    "imageURL": "초코라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "보움말차라떼",
+    "price": 7000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "말차라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 4,
+    "name": "자색고구마라떼",
+    "price": 7000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "자색고구마라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 50,
+    "name": "생강라떼",
+    "price": 7000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "진저라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 5,
+    "name": "딸기라떼",
+    "price": 7000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "딸기라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 6,
+    "name": "얼그레이 밀크티",
+    "price": 7000,
+    "category": "beverage",
+    "description": "얼그레이를 직접 냉침하여 향이 강해요!",
+    "imageURL": "밀크티.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 7,
+    "name": "복숭아 아이스티",
+    "price": 6500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "복숭아아이스티.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "생 레몬에이드",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "레몬에이드.png",
+    "status": false,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "자몽에이드",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "자몽에이드.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "문경오미자에이드",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "오미자에이드.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 46,
+    "name": "수박주스",
+    "price": 7500,
+    "category": "beverage",
+    "description": "(ICED only)",
+    "imageURL": "수박주스.png",
+    "status": false,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 11,
+    "name": "자몽차",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "자몽차.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 12,
+    "name": "문경오미자차",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "오미자차.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 55,
+    "name": "생강차",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "생강차.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 13,
+    "name": "미숫가루 스무디",
+    "price": 7500,
+    "category": "beverage",
+    "description": "샷추가 +500 흑임자·율무 등 각종 곡물이 들어있는 스무디 / 샷 추가하면 더 맛있어요!",
+    "imageURL": "미숫가루스무디.png",
+    "status": false,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 43,
+    "name": "플레인 요거트 스무디",
+    "price": 7500,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "플레인요거트스무디.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 44,
+    "name": "딸기 요거트 스무디",
+    "price": 8000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "딸기요거트스무디.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 45,
+    "name": "블루베리 요거트 스무디",
+    "price": 8000,
+    "category": "beverage",
+    "description": "",
+    "imageURL": "블루베리요거트스무디.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 14,
+    "name": "아쿠아로사",
+    "price": 6500,
+    "category": "beverage",
+    "description": "히비스커스, 블랙베리, 레드프루츠, 카페인free",
+    "imageURL": "아쿠아로사.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 15,
+    "name": "엑스퓨레 에딕트",
+    "price": 6500,
+    "category": "beverage",
+    "description": "(디톡스 티) 녹차, 로즈힙, 루이보스, 스피아민트, 마테가 함유된 티톡스 티",
+    "imageURL": "엑스퓨레에딕트.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 16,
+    "name": "부케 플라워스",
+    "price": 6500,
+    "category": "beverage",
+    "description": "(얼그레이) 얼그레이, 라임, 베르가뭇, 라일락",
+    "imageURL": "부케플라워스.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 17,
+    "name": "에스프레소",
+    "price": 6000,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "에스프레소.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 18,
+    "name": "아메리카노",
+    "price": 6000,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "아메리카노.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 19,
+    "name": "라떼",
+    "price": 6500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "카페라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 20,
+    "name": "카푸치노",
+    "price": 6500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "카푸치노.png",
+    "status": false,
+    "option": {
+      "temperature": false,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 21,
+    "name": "플랫화이트",
+    "price": 6500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "플랫화이트.png",
+    "status": false,
+    "option": {
+      "temperature": true,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 22,
+    "name": "바닐라빈 라떼",
+    "price": 7000,
+    "category": "coffee",
+    "description": "바닐라빈으로 만든 수제시럽",
+    "imageURL": "바닐라빈라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 23,
+    "name": "보움라떼",
+    "price": 7000,
+    "category": "coffee",
+    "description": "(ICED only) 미니사이즈 라떼에 크림이 올라가 고소하면서도 진한 커피의 맛을 느낄 수 있는 시그니처 메뉴",
+    "imageURL": "보움라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 24,
+    "name": "말차카페라떼",
+    "price": 7500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "말차카페라떼.png",
+    "status": true,
+    "option": {
+      "temperature": true,
+      "decaf": true,
+      "sparkling": false,
+      "addShot": true
+    }
+  },
+  {
+    "id": 25,
+    "name": "콜드브루",
+    "price": 6500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "콜드브루.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 26,
+    "name": "콜드브루라떼",
+    "price": 7000,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "콜드브루라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 27,
+    "name": "바닐라 콜드브루라떼",
+    "price": 7500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "바닐라콜드브루라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 28,
+    "name": "돌체콜드브루라떼",
+    "price": 7500,
+    "category": "coffee",
+    "description": "",
+    "imageURL": "돌체콜드브루라떼.png",
+    "status": true,
+    "option": {
+      "temperature": false,
+      "decaf": false,
+      "sparkling": false,
+      "addShot": false
+    }
+  },
+  {
+    "id": 29,
+    "name": "몽블랑",
+    "price": 6500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 30,
+    "name": "데니쉬 앙버터",
+    "price": 6500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 31,
+    "name": "팡도르",
+    "price": 6500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 32,
+    "name": "인절미 팡도르",
+    "price": 7000,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.찹쌀떡",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 33,
+    "name": "크루아상",
+    "price": 5000,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 34,
+    "name": "크림 크루아상",
+    "price": 5500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 35,
+    "name": "아몬드 크루아상",
+    "price": 6000,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 아몬드(미국)",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 36,
+    "name": "빵오 쇼콜라",
+    "price": 5500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 37,
+    "name": "빵오 쇼콜라 초코코팅",
+    "price": 6500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 발로나 초콜릿.초코크런키",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 38,
+    "name": "롱 소세지 데니쉬",
+    "price": 7500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 롱 소세지 마늘파우더",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 39,
+    "name": "마늘빵",
+    "price": 5000,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 40,
+    "name": "데니쉬 마늘빵",
+    "price": 5500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 41,
+    "name": "메론빵",
+    "price": 4500,
+    "category": "bakery",
+    "description": "• 프랑스 레스큐어 버터 • 미국산 아몬드 파우더",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  },
+  {
+    "id": 42,
+    "name": "옥수수 단과자빵",
+    "price": 3500,
+    "category": "bakery",
+    "description": "• 프랑스 물랑부르주아 밀가루 • 프랑스 레스큐어 버터 • 우유.계란.옥수수",
+    "imageURL": "",
+    "status": false,
+    "temperature": null
+  }
 ]
-  
