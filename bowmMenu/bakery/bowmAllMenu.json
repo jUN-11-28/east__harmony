@@ -521,8 +521,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "소금빵은 기본적으로 하나 먹어봐야죠!"
     },
     "tags": [""]
   },
@@ -537,8 +537,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "맛없없"
     },
     "tags": [""]
   },
@@ -553,8 +553,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "저는 몰랐는데 손님들이 젤 많이 찾으시더라고요!"
     },
     "tags": [""]
   },
@@ -569,8 +569,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "보움의 빵장인이 한땀한땀 만들어... blah blah"
     },
     "tags": [""]
   },
@@ -601,8 +601,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "조선시대 왕들이 즐겨먹었다나 뭐라나~"
     },
     "tags": [""]
   },
@@ -622,8 +622,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "맛있는걸 먹으면 기억을 잃는 병에 걸렸어요. 제가 방금 뭐라고 했죠?"
     },
     "tags": [""]
   },
@@ -638,8 +638,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "사장님 몰래 밤을 들이 부었어요! 🤫"
     },
     "tags": [""]
   },
@@ -654,8 +654,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "치즈베이스 반죽이라 더 쫄깃해요!!"
     },
     "tags": [""]
   },
@@ -670,8 +670,8 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "할매니얼 입맛엔 이게 제격입니다!"
     },
     "tags": [""]
   },
@@ -681,13 +681,13 @@
     "price": 8000,
     "category": "베이커리",
     "ingredients": [""],
-    "description": "",
+    "description": "진한 치즈의 풍미 위에 상큼한 딸기와 보움만의 특별한 크림의 만남",
     "options": [],
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "제가 만들었지만,, 너무 맛있어서 살이 쪄버렸어요 ㅠㅠ"
     },
     "tags": [""]
   },
@@ -702,7 +702,7 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
+      "profileName": "보움맨",
       "oneLineReview": ""
     },
     "tags": [""]
@@ -718,7 +718,7 @@
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
+      "profileName": "보움맨",
       "oneLineReview": ""
     },
     "tags": [""]
@@ -729,13 +729,13 @@
     "price": 9500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유"],
-    "description": "",
+    "description": "생딸기와 보움 크림으로 완성된 촉촉하고 부드러운 팡도르",
     "options": [],
     "isAvailable": true,
     "profile": {
       "profileImage": "",
-      "profileName": "",
-      "oneLineReview": ""
+      "profileName": "보움맨",
+      "oneLineReview": "딸기 덕후는 꼭 먹어보시라!"
     },
     "tags": [""]
   }
