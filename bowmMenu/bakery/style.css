@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 4vw;
+  word-break: keep-all;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #4a90e2, #ffffff);
+}
+
+/* 모든 div에 대한 기본 중앙 정렬 스타일 */
+div {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  /* background-color: #f4f4f4; */
+  padding: 1rem;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+#headerBar {
+  background-color: black;
+  color: white;
+  width: 90vw;
+  margin-top: 30px;
+  margin-bottom: 5vw;
+  /* position: relative; */
+  /* top: 30px; */
+}
+
+.menuInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+  padding-left: 2vw;
+}
+
+.menuName {
+  font-weight: 500;
+  font-size: 7vw;
+  text-align: left;
+  width: 100%;
+}
+
+.menuDescription {
+  font-size: 5vw;
+  text-align: left;
+  width: 100%;
+  line-height: 1.1;
+}
+
+.menuImg {
+  width: 60vw;
+  margin-bottom: -55vw;
+  margin-right: -17vw;
+  /* border: 1px solid black; */
+}
+
+.menuBox {
+  width: 90vw;
+  height: 90vw;
+  background-color: white;
+  border: 0.4vw solid black;
+  border-top: 2vw solid black;
+  margin-bottom: 5vw;
+}
+
+.recommendationBox {
+  width: 90vw;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  /* padding: 5vw; */
+}
+
+.memoji {
+  width: 20vw;
+  border: 0.4vw solid black;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.ingredientBox {
+  width: 90vw;
+  background-color: white;
+  border: 0.4vw solid black;
+  margin-bottom: 5vw;
+}
+
+#logoImg {
+  margin: 10vw;
+  width: 15vw;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#allMenuContainer {
+  width: 90vw;
+  max-width: 1200px; /* PC에서 최대 너비 제한 */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 기본 모바일: 2열 */
+  gap: 5vw;
+  margin-bottom: 5vw;
+}
+
+.menuItemContainer {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 0.3vw solid black;
+  background-color: white;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menuItemImg {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.menuItemName {
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+/* 태블릿 크기 (768px 이상) */
+@media screen and (min-width: 768px) {
+  #allMenuContainer {
+    grid-template-columns: repeat(3, 1fr); /* 태블릿: 3열 */
+    gap: 3vw; /* 간격 조정 */
+  }
+
+  .menuItemName {
+    font-size: 2.5vw; /* 글자 크기 조정 */
+  }
+}
+
+/* PC 크기 (1024px 이상) */
+@media screen and (min-width: 1024px) {
+  #allMenuContainer {
+    grid-template-columns: repeat(4, 1fr); /* PC: 4열 */
+    gap: 2vw; /* 간격 조정 */
+  }
+
+  .menuItemName {
+    font-size: 1.5vw; /* 글자 크기 조정 */
+  }
+
+  .menuItemImg {
+    width: 75%; /* 이미지 크기 약간 조정 */
+    height: 65%;
+  }
+}
+
+/* 큰 화면에서 폰트 크기가 너무 커지지 않도록 조정 */
+@media screen and (min-width: 1200px) {
+  .menuItemName {
+    font-size: 18px; /* 최대 폰트 크기 고정 */
+  }
+}
+
+.backToAllMenu {
+  width: 90vw;
+  margin-bottom: 5vw;
+  cursor: pointer;
+}
+
+.backToAllMenuText {
+  display: inline-block;
+  padding: 1vw 2vw;
+  background-color: white;
+  border: 0.4vw solid black;
+  border-radius: 10vw;
+  font-size: 3.5vw;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.backToAllMenuText:hover {
+  background-color: black;
+  color: white;
+}
