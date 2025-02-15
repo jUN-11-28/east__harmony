@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menuItem.className = "menuItemContainer";
         menuItem.innerHTML = `
           <img class="menuItemImg" src="${
-            menu.menuImageUrl || "./기본이미지.png"
+            menu.menuImageUrl || "./bakeryImg/기본이미지.png"
           }" />
           <div class="menuItemName">${menu.menuName}</div>
         `;

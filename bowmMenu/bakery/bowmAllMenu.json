@@ -512,7 +512,7 @@
   },
   {
     "menuName": "치즈소금빵",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/치즈소금빵.png",
     "price": 4500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루. 우유. 치즈"],
@@ -528,7 +528,7 @@
   },
   {
     "menuName": "육쪽마늘빵",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/육쪽마늘빵.png",
     "price": 7000,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유", "계란"],
@@ -538,13 +538,13 @@
     "profile": {
       "profileImage": "",
       "profileName": "보움맨",
-      "oneLineReview": "맛없없"
+      "oneLineReview": "솔직히 맛없없~"
     },
     "tags": [""]
   },
   {
     "menuName": "치즈인더트랩",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/치즈인더트랩.png",
     "price": 6500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유", "치즈", "햄"],
@@ -560,7 +560,7 @@
   },
   {
     "menuName": "몽블랑",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/몽블랑.png",
     "price": 8500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유", "시나몬"],
@@ -576,7 +576,7 @@
   },
   {
     "menuName": "딸기크림브리오슈",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/딸기크림브리오슈.png",
     "price": 6500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유", "계란"],
@@ -592,7 +592,7 @@
   },
   {
     "menuName": "상투과자",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/상투과자.png",
     "price": 5000,
     "category": "베이커리",
     "ingredients": [""],
@@ -608,7 +608,7 @@
   },
   {
     "menuName": "모카월넛",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/모카월넛.png",
     "price": 7500,
     "category": "베이커리",
     "ingredients": [
@@ -629,7 +629,7 @@
   },
   {
     "menuName": "모카밤빵",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/모카밤빵.png",
     "price": 7500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유", "계란", "밤"],
@@ -645,7 +645,7 @@
   },
   {
     "menuName": "초코츄러스",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/초코츄러스.png",
     "price": 4500,
     "category": "베이커리",
     "ingredients": ["밀가루", "계란", "우유"],
@@ -661,7 +661,7 @@
   },
   {
     "menuName": "찰스틱",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/찰스틱.png",
     "price": 6500,
     "category": "베이커리",
     "ingredients": ["버터", "밀가루", "계란", "우유", "인절미가루"],
@@ -677,7 +677,7 @@
   },
   {
     "menuName": "뉴욕치즈케이크",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/뉴욕치즈케이크.png",
     "price": 8000,
     "category": "베이커리",
     "ingredients": [""],
@@ -693,7 +693,7 @@
   },
   {
     "menuName": "딸기가득케이크",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/딸기가득케이크.png",
     "price": 9900,
     "category": "베이커리",
     "ingredients": [""],
@@ -709,7 +709,7 @@
   },
   {
     "menuName": "딸기파이",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/딸기파이.png",
     "price": 6500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유"],
@@ -725,7 +725,7 @@
   },
   {
     "menuName": "딸기팡도르",
-    "menuImageUrl": "",
+    "menuImageUrl": "./bakeryImg/딸기팡도르.png",
     "price": 9500,
     "category": "베이커리",
     "ingredients": ["레스큐어 버터. 물랑브루주아 밀가루", "우유"],
